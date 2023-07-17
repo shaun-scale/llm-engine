@@ -15,13 +15,13 @@ tag: 31e907b1e1850883c53613800bf69048035c77f6
 context: production
 image:
   # gatewayRepository is the docker repository to pull the LLM Engine gateway image from
-  gatewayRepository: public.ecr.aws/b2z8n5q1/spellbook-serve
+  gatewayRepository: public.ecr.aws/b2z8n5q1/llm-engine
   # builderRepository is the docker repository to pull the LLM Engine endpoint builder image from
-  builderRepository: public.ecr.aws/b2z8n5q1/spellbook-serve
+  builderRepository: public.ecr.aws/b2z8n5q1/llm-engine
   # cacherRepository is the docker repository to pull the LLM Engine cacher image from
-  cacherRepository: public.ecr.aws/b2z8n5q1/spellbook-serve
+  cacherRepository: public.ecr.aws/b2z8n5q1/llm-engine
   # forwarderRepository is the docker repository to pull the LLM Engine forwarder image from
-  forwarderRepository: public.ecr.aws/b2z8n5q1/spellbook-serve
+  forwarderRepository: public.ecr.aws/b2z8n5q1/llm-engine
   pullPolicy: Always
 
 secrets:
